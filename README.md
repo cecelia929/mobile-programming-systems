@@ -1,4 +1,6 @@
 #Instagram Project
+#This is a team project
+
 ### 0. Preliminary
 * open the project through **Instagram.xcworkspace**
 * We are using [storyboard reference](https://www.shinobicontrols.com/blog/ios9-day-by-day-day3-storyboard-references) in this group project. 
