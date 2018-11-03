@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1BAA102168B1BD009B3323 /* RegisterSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1BAA0F2168B1BD009B3323 /* RegisterSuccessViewController.swift */; };
+		1E63818F215FD9340044ACDB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63818E215FD9340044ACDB /* SignUpViewController.swift */; };
+		4B78B018876D8628C659DA86 /* FeedInRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B78BED83B0B2D3CA0BC8464 /* FeedInRangeViewController.swift */; };
+		8F7FEA00F38982DCF9E22CD5 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AEBE97E278776CD52CC28E /* Pods_Instagram.framework */; };
+		DB12E5D22155021F00BB686A /* EmbeddedTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12E5D12155021F00BB686A /* EmbeddedTabBarViewController.swift */; };
+		DB12E5D4215509CF00BB686A /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12E5D3215509CF00BB686A /* FilterViewController.swift */; };
+		DB12E5D6215509D700BB686A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12E5D5215509D700BB686A /* EditViewController.swift */; };
+		DB12E5D921550C4D00BB686A /* BrightnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12E5D821550C4D00BB686A /* BrightnessViewController.swift */; };
+		DB12E5DB21550C5700BB686A /* ContrastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12E5DA21550C5700BB686A /* ContrastViewController.swift */; };
+		DB33E3A72153DE5500E9DF65 /* ProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33E3A62153DE5500E9DF65 /* ProcessViewController.swift */; };
+		DB33E3A92154705600E9DF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB33E3A82154705600E9DF65 /* Assets.xcassets */; };
+		DB33E72A2158A11500BAF317 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33E7292158A11500BAF317 /* Constants.swift */; };
+		DB354D1A216C5E2000A51E45 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB354D19216C5E2000A51E45 /* LikeViewController.swift */; };
+		DB354D1C216C5E3400A51E45 /* LikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB354D1B216C5E3400A51E45 /* LikeCell.swift */; };
+		DB354D1E216C5E3F00A51E45 /* LikePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB354D1D216C5E3F00A51E45 /* LikePresenter.swift */; };
+		DB354D20216C5E4B00A51E45 /* LikeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB354D1F216C5E4B00A51E45 /* LikeDataSource.swift */; };
+		DB41A2F3216997A600F0A7EC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A2F2216997A600F0A7EC /* WelcomeViewController.swift */; };
+		DB41A2FB216A1ACC00F0A7EC /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A2FA216A1ACC00F0A7EC /* FollowingViewController.swift */; };
+		DB41A2FD216A1AF900F0A7EC /* FollowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A2FC216A1AF900F0A7EC /* FollowingCell.swift */; };
+		DB41A2FF216A1B0500F0A7EC /* FollwingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A2FE216A1B0500F0A7EC /* FollwingPresenter.swift */; };
+		DB41A301216A1B0F00F0A7EC /* FollowingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A300216A1B0F00F0A7EC /* FollowingDataSource.swift */; };
+		DB41A303216A1B1A00F0A7EC /* YouDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A302216A1B1A00F0A7EC /* YouDataSource.swift */; };
+		DB41A305216A1B2200F0A7EC /* YouPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A304216A1B2200F0A7EC /* YouPresenter.swift */; };
+		DB41A307216A1B2F00F0A7EC /* YouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A306216A1B2F00F0A7EC /* YouViewController.swift */; };
+		DB41A309216A1B4000F0A7EC /* YouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A308216A1B4000F0A7EC /* YouCell.swift */; };
+		DB41A30B216A244A00F0A7EC /* YouCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41A30A216A244A00F0A7EC /* YouCollectionReusableView.swift */; };
+		DB43A136216B204400A29191 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43A135216B204400A29191 /* DiscoverCell.swift */; };
+		DB43A138216B205500A29191 /* DiscoverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43A137216B205500A29191 /* DiscoverPresenter.swift */; };
+		DB43A13A216B205F00A29191 /* DiscoverDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43A139216B205F00A29191 /* DiscoverDataSource.swift */; };
+		DB43A13C216B244D00A29191 /* DiscoverCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43A13B216B244D00A29191 /* DiscoverCollectionReusableView.swift */; };
+		DB60CFB521521B7B00A673B3 /* SortPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB60CFB421521B7B00A673B3 /* SortPopOverViewController.swift */; };
+		DB7066602163C7D7008817AC /* UserFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70665F2163C7D7008817AC /* UserFeedCell.swift */; };
+		DB70666721642C1F008817AC /* UserFeedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70666521642C1F008817AC /* UserFeedDataSource.swift */; };
+		DB70666821642C1F008817AC /* UserFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70666621642C1F008817AC /* UserFeedPresenter.swift */; };
+		DB96C53C2152678300543EF1 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96C53B2152678300543EF1 /* Util.swift */; };
+		DB96C54221535AFE00543EF1 /* CommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96C54121535AFE00543EF1 /* CommentsCell.swift */; };
+		DB96C54421535B1600543EF1 /* CommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96C54321535B1600543EF1 /* CommentsPresenter.swift */; };
+		DB96C54621535B2400543EF1 /* CommentsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96C54521535B2400543EF1 /* CommentsDataSource.swift */; };
+		DB96C5502153B25200543EF1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96C54F2153B25100543EF1 /* TabBarViewController.swift */; };
+		DB96C5C92153C02000543EF1 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB96C59B2153C01F00543EF1 /* TOCropViewControllerLocalizable.strings */; };
+		DB96C5CA2153C02000543EF1 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5B32153C01F00543EF1 /* TOActivityCroppedImageProvider.m */; };
+		DB96C5CB2153C02000543EF1 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5B42153C01F00543EF1 /* TOCropViewControllerTransitioning.m */; };
+		DB96C5CC2153C02000543EF1 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5B52153C01F00543EF1 /* TOCroppedImageAttributes.m */; };
+		DB96C5CD2153C02000543EF1 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5B92153C01F00543EF1 /* TOCropViewController.m */; };
+		DB96C5CF2153C02000543EF1 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5C02153C01F00543EF1 /* TOCropScrollView.m */; };
+		DB96C5D02153C02000543EF1 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5C12153C01F00543EF1 /* TOCropView.m */; };
+		DB96C5D12153C02000543EF1 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5C22153C01F00543EF1 /* TOCropOverlayView.m */; };
+		DB96C5D22153C02000543EF1 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5C32153C01F00543EF1 /* TOCropToolbar.m */; };
+		DB96C5D32153C02000543EF1 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5C62153C01F00543EF1 /* UIImage+CropRotate.m */; };
+		DB96C5D82153C0CD00543EF1 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96C5D62153C0CC00543EF1 /* CropViewController.swift */; };
+		DBBD3B5B21475770006144C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3B5A21475770006144C9 /* AppDelegate.swift */; };
+		DBBD3B6321475770006144C9 /* Instagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3B6121475770006144C9 /* Instagram.xcdatamodeld */; };
+		DBBD3B6821475773006144C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3B6621475773006144C9 /* LaunchScreen.storyboard */; };
+		DBBD3B752147633A006144C9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3B742147633A006144C9 /* Login.storyboard */; };
+		DBBD3B9321479E93006144C9 /* TabBarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3B9221479E93006144C9 /* TabBarView.storyboard */; };
+		DBBD3B9D2147A6CB006144C9 /* UserFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3B9C2147A6CB006144C9 /* UserFeed.storyboard */; };
+		DBBD3B9F2147A766006144C9 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3B9E2147A766006144C9 /* Discover.storyboard */; };
+		DBBD3BA12147A786006144C9 /* UploadPhoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3BA02147A786006144C9 /* UploadPhoto.storyboard */; };
+		DBBD3BA32147A7DD006144C9 /* ActivityFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3BA22147A7DD006144C9 /* ActivityFeed.storyboard */; };
+		DBBD3BA52147A7F8006144C9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD3BA42147A7F8006144C9 /* Profile.storyboard */; };
+		DBBD3BA92147AB43006144C9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3BA82147AB43006144C9 /* ProfileViewController.swift */; };
+		DBBD3BAB2147AB7F006144C9 /* ActivityFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3BAA2147AB7F006144C9 /* ActivityFeedViewController.swift */; };
+		DBBD3BAD2147AB96006144C9 /* SelectPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3BAC2147AB96006144C9 /* SelectPhotoViewController.swift */; };
+		DBBD3BAF2147ABB1006144C9 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3BAE2147ABB1006144C9 /* DiscoverViewController.swift */; };
+		DBBD3BB12147ABCA006144C9 /* UserFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3BB02147ABCA006144C9 /* UserFeedViewController.swift */; };
+		DBBD3BB32147ABE0006144C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD3BB22147ABE0006144C9 /* LoginViewController.swift */; };
+		DBD688F42151D02F00ECB491 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD688F32151D02F00ECB491 /* Extension.swift */; };
+		DBD688F62151FB5A00ECB491 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD688F52151FB5A00ECB491 /* CommentsViewController.swift */; };
+		DBD720B02163626900D167B7 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD720AF2163626900D167B7 /* ProfileCell.swift */; };
+		DBD720B22163627A00D167B7 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD720B12163627A00D167B7 /* ProfilePresenter.swift */; };
+		DBD720B42163628900D167B7 /* ProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD720B32163628900D167B7 /* ProfileDataSource.swift */; };
+		DBD9ED1D2155B75200018BC9 /* Saturationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED182155B75100018BC9 /* Saturationable.swift */; };
+		DBD9ED1E2155B75200018BC9 /* Contrastable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED192155B75100018BC9 /* Contrastable.swift */; };
+		DBD9ED1F2155B75200018BC9 /* Brightnessable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED1A2155B75100018BC9 /* Brightnessable.swift */; };
+		DBD9ED202155B75200018BC9 /* Processable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED1B2155B75100018BC9 /* Processable.swift */; };
+		DBD9ED212155B75200018BC9 /* ColorControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED1C2155B75200018BC9 /* ColorControlManager.swift */; };
+		DBD9ED262155D16100018BC9 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED252155D16100018BC9 /* FilterCell.swift */; };
+		DBD9ED282155D21100018BC9 /* FilterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED272155D21100018BC9 /* FilterDataSource.swift */; };
+		DBD9ED2A2155D21D00018BC9 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED292155D21D00018BC9 /* FilterPresenter.swift */; };
+		DBD9ED2C2155D23F00018BC9 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED2B2155D23F00018BC9 /* Filter.swift */; };
+		DBD9ED2E215607E800018BC9 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED2D215607E800018BC9 /* ImageHelper.swift */; };
+		DBD9ED302156080600018BC9 /* HazeRemovalFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED2F2156080600018BC9 /* HazeRemovalFilter.swift */; };
+		DBD9ED322156360A00018BC9 /* UploadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9ED312156360A00018BC9 /* UploadPhotoViewController.swift */; };
+		DBDED87F215F5E83000A1BD8 /* FeedInRangeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDED87E215F5E83000A1BD8 /* FeedInRangeDataSource.swift */; };
+		DBDED881215F5EFE000A1BD8 /* FeedInRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDED880215F5EFE000A1BD8 /* FeedInRangeCell.swift */; };
+		DBDED883215F5F4D000A1BD8 /* FeedInRangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDED882215F5F4D000A1BD8 /* FeedInRangePresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB821170214E2C1D00B10CF1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E1BAA0F2168B1BD009B3323 /* RegisterSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSuccessViewController.swift; sourceTree = "<group>"; };
+		1E63818E215FD9340044ACDB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4B78BED83B0B2D3CA0BC8464 /* FeedInRangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedInRangeViewController.swift; sourceTree = "<group>"; };
+		AC2764BEFF537C823ECEA16E /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
+		DB12E5D12155021F00BB686A /* EmbeddedTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedTabBarViewController.swift; sourceTree = "<group>"; };
+		DB12E5D3215509CF00BB686A /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		DB12E5D5215509D700BB686A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		DB12E5D821550C4D00BB686A /* BrightnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessViewController.swift; sourceTree = "<group>"; };
+		DB12E5DA21550C5700BB686A /* ContrastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastViewController.swift; sourceTree = "<group>"; };
+		DB33E3A62153DE5500E9DF65 /* ProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessViewController.swift; sourceTree = "<group>"; };
+		DB33E3A82154705600E9DF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB33E7292158A11500BAF317 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB354D19216C5E2000A51E45 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		DB354D1B216C5E3400A51E45 /* LikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCell.swift; sourceTree = "<group>"; };
+		DB354D1D216C5E3F00A51E45 /* LikePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikePresenter.swift; sourceTree = "<group>"; };
+		DB354D1F216C5E4B00A51E45 /* LikeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeDataSource.swift; sourceTree = "<group>"; };
+		DB41A2F2216997A600F0A7EC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DB41A2FA216A1ACC00F0A7EC /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		DB41A2FC216A1AF900F0A7EC /* FollowingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingCell.swift; sourceTree = "<group>"; };
+		DB41A2FE216A1B0500F0A7EC /* FollwingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollwingPresenter.swift; sourceTree = "<group>"; };
+		DB41A300216A1B0F00F0A7EC /* FollowingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingDataSource.swift; sourceTree = "<group>"; };
+		DB41A302216A1B1A00F0A7EC /* YouDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouDataSource.swift; sourceTree = "<group>"; };
+		DB41A304216A1B2200F0A7EC /* YouPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouPresenter.swift; sourceTree = "<group>"; };
+		DB41A306216A1B2F00F0A7EC /* YouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouViewController.swift; sourceTree = "<group>"; };
+		DB41A308216A1B4000F0A7EC /* YouCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouCell.swift; sourceTree = "<group>"; };
+		DB41A30A216A244A00F0A7EC /* YouCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouCollectionReusableView.swift; sourceTree = "<group>"; };
+		DB43A135216B204400A29191 /* DiscoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCell.swift; sourceTree = "<group>"; };
+		DB43A137216B205500A29191 /* DiscoverPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverPresenter.swift; sourceTree = "<group>"; };
+		DB43A139216B205F00A29191 /* DiscoverDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDataSource.swift; sourceTree = "<group>"; };
+		DB43A13B216B244D00A29191 /* DiscoverCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCollectionReusableView.swift; sourceTree = "<group>"; };
+		DB60CFB421521B7B00A673B3 /* SortPopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortPopOverViewController.swift; sourceTree = "<group>"; };
+		DB70665F2163C7D7008817AC /* UserFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFeedCell.swift; sourceTree = "<group>"; };
+		DB70666521642C1F008817AC /* UserFeedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFeedDataSource.swift; sourceTree = "<group>"; };
+		DB70666621642C1F008817AC /* UserFeedPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFeedPresenter.swift; sourceTree = "<group>"; };
+		DB96C53B2152678300543EF1 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		DB96C54121535AFE00543EF1 /* CommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCell.swift; sourceTree = "<group>"; };
+		DB96C54321535B1600543EF1 /* CommentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsPresenter.swift; sourceTree = "<group>"; };
+		DB96C54521535B2400543EF1 /* CommentsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsDataSource.swift; sourceTree = "<group>"; };
+		DB96C54F2153B25100543EF1 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DB96C5532153BACB00543EF1 /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB96C5992153C01F00543EF1 /* TOCropViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewConstants.h; sourceTree = "<group>"; };
+		DB96C59C2153C01F00543EF1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C59D2153C01F00543EF1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C59E2153C01F00543EF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		DB96C59F2153C01F00543EF1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A02153C01F00543EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A12153C01F00543EF1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A22153C01F00543EF1 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A32153C01F00543EF1 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A42153C01F00543EF1 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A52153C01F00543EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A62153C01F00543EF1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		DB96C5A72153C01F00543EF1 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5A82153C01F00543EF1 /* da-DK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-DK"; path = "da-DK.lproj/TOCropViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		DB96C5A92153C01F00543EF1 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5AA2153C01F00543EF1 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5AB2153C01F00543EF1 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5AC2153C01F00543EF1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5AD2153C01F00543EF1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5AE2153C01F00543EF1 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5AF2153C01F00543EF1 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5B02153C01F00543EF1 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5B12153C01F00543EF1 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		DB96C5B32153C01F00543EF1 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		DB96C5B42153C01F00543EF1 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		DB96C5B52153C01F00543EF1 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		DB96C5B62153C01F00543EF1 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		DB96C5B72153C01F00543EF1 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		DB96C5B82153C01F00543EF1 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		DB96C5B92153C01F00543EF1 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		DB96C5BD2153C01F00543EF1 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		DB96C5BE2153C01F00543EF1 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		DB96C5BF2153C01F00543EF1 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		DB96C5C02153C01F00543EF1 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		DB96C5C12153C01F00543EF1 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		DB96C5C22153C01F00543EF1 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		DB96C5C32153C01F00543EF1 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		DB96C5C42153C01F00543EF1 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		DB96C5C62153C01F00543EF1 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		DB96C5C72153C01F00543EF1 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		DB96C5C82153C01F00543EF1 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		DB96C5D52153C0CC00543EF1 /* CropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropViewController.h; sourceTree = "<group>"; };
+		DB96C5D62153C0CC00543EF1 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		DBBD3B5721475770006144C9 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBD3B5A21475770006144C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBBD3B6221475770006144C9 /* Instagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instagram.xcdatamodel; sourceTree = "<group>"; };
+		DBBD3B6721475773006144C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBBD3B6921475773006144C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBD3B742147633A006144C9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		DBBD3B9221479E93006144C9 /* TabBarView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarView.storyboard; sourceTree = "<group>"; };
+		DBBD3B9C2147A6CB006144C9 /* UserFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserFeed.storyboard; sourceTree = "<group>"; };
+		DBBD3B9E2147A766006144C9 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		DBBD3BA02147A786006144C9 /* UploadPhoto.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UploadPhoto.storyboard; sourceTree = "<group>"; };
+		DBBD3BA22147A7DD006144C9 /* ActivityFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActivityFeed.storyboard; sourceTree = "<group>"; };
+		DBBD3BA42147A7F8006144C9 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		DBBD3BA82147AB43006144C9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DBBD3BAA2147AB7F006144C9 /* ActivityFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFeedViewController.swift; sourceTree = "<group>"; };
+		DBBD3BAC2147AB96006144C9 /* SelectPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPhotoViewController.swift; sourceTree = "<group>"; };
+		DBBD3BAE2147ABB1006144C9 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		DBBD3BB02147ABCA006144C9 /* UserFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedViewController.swift; sourceTree = "<group>"; };
+		DBBD3BB22147ABE0006144C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DBD688F32151D02F00ECB491 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DBD688F52151FB5A00ECB491 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		DBD720AF2163626900D167B7 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		DBD720B12163627A00D167B7 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		DBD720B32163628900D167B7 /* ProfileDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataSource.swift; sourceTree = "<group>"; };
+		DBD9ED182155B75100018BC9 /* Saturationable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Saturationable.swift; sourceTree = "<group>"; };
+		DBD9ED192155B75100018BC9 /* Contrastable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contrastable.swift; sourceTree = "<group>"; };
+		DBD9ED1A2155B75100018BC9 /* Brightnessable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brightnessable.swift; sourceTree = "<group>"; };
+		DBD9ED1B2155B75100018BC9 /* Processable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processable.swift; sourceTree = "<group>"; };
+		DBD9ED1C2155B75200018BC9 /* ColorControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorControlManager.swift; sourceTree = "<group>"; };
+		DBD9ED252155D16100018BC9 /* FilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		DBD9ED272155D21100018BC9 /* FilterDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDataSource.swift; sourceTree = "<group>"; };
+		DBD9ED292155D21D00018BC9 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
+		DBD9ED2B2155D23F00018BC9 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		DBD9ED2D215607E800018BC9 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		DBD9ED2F2156080600018BC9 /* HazeRemovalFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HazeRemovalFilter.swift; sourceTree = "<group>"; };
+		DBD9ED312156360A00018BC9 /* UploadPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewController.swift; sourceTree = "<group>"; };
+		DBDED87E215F5E83000A1BD8 /* FeedInRangeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInRangeDataSource.swift; sourceTree = "<group>"; };
+		DBDED880215F5EFE000A1BD8 /* FeedInRangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInRangeCell.swift; sourceTree = "<group>"; };
+		DBDED882215F5F4D000A1BD8 /* FeedInRangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInRangePresenter.swift; sourceTree = "<group>"; };
+		E64329E9D2B78D7CEE27382F /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
+		E9AEBE97E278776CD52CC28E /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBBD3B5421475770006144C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7FEA00F38982DCF9E22CD5 /* Pods_Instagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CC29EB96F11C0C7BF56DC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AEBE97E278776CD52CC28E /* Pods_Instagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B78B17321FCF5127C182412 /* FeedInRange */ = {
+			isa = PBXGroup;
+			children = (
+				4B78BED83B0B2D3CA0BC8464 /* FeedInRangeViewController.swift */,
+				DBDED87E215F5E83000A1BD8 /* FeedInRangeDataSource.swift */,
+				DBDED880215F5EFE000A1BD8 /* FeedInRangeCell.swift */,
+				DBDED882215F5F4D000A1BD8 /* FeedInRangePresenter.swift */,
+			);
+			path = FeedInRange;
+			sourceTree = "<group>";
+		};
+		69784394F986C733D777D5FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC2764BEFF537C823ECEA16E /* Pods-Instagram.debug.xcconfig */,
+				E64329E9D2B78D7CEE27382F /* Pods-Instagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB12E5D721550C1E00BB686A /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9ED232155CE1900018BC9 /* Edit */,
+				DBD9ED222155CE0700018BC9 /* Filter */,
+				DB33E3A62153DE5500E9DF65 /* ProcessViewController.swift */,
+				DB12E5D12155021F00BB686A /* EmbeddedTabBarViewController.swift */,
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
+		DB354D18216C5E0E00A51E45 /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				DB354D19216C5E2000A51E45 /* LikeViewController.swift */,
+				DB354D1B216C5E3400A51E45 /* LikeCell.swift */,
+				DB354D1D216C5E3F00A51E45 /* LikePresenter.swift */,
+				DB354D1F216C5E4B00A51E45 /* LikeDataSource.swift */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		DB41A2F8216A1AAB00F0A7EC /* You */ = {
+			isa = PBXGroup;
+			children = (
+				DB41A306216A1B2F00F0A7EC /* YouViewController.swift */,
+				DB41A308216A1B4000F0A7EC /* YouCell.swift */,
+				DB41A304216A1B2200F0A7EC /* YouPresenter.swift */,
+				DB41A302216A1B1A00F0A7EC /* YouDataSource.swift */,
+				DB41A30A216A244A00F0A7EC /* YouCollectionReusableView.swift */,
+			);
+			path = You;
+			sourceTree = "<group>";
+		};
+		DB41A2F9216A1AB400F0A7EC /* Following */ = {
+			isa = PBXGroup;
+			children = (
+				DB41A2FA216A1ACC00F0A7EC /* FollowingViewController.swift */,
+				DB41A2FC216A1AF900F0A7EC /* FollowingCell.swift */,
+				DB41A2FE216A1B0500F0A7EC /* FollwingPresenter.swift */,
+				DB41A300216A1B0F00F0A7EC /* FollowingDataSource.swift */,
+			);
+			path = Following;
+			sourceTree = "<group>";
+		};
+		DB96C53D2152745A00543EF1 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3BB02147ABCA006144C9 /* UserFeedViewController.swift */,
+				DB70666521642C1F008817AC /* UserFeedDataSource.swift */,
+				DB70666621642C1F008817AC /* UserFeedPresenter.swift */,
+				DB70665F2163C7D7008817AC /* UserFeedCell.swift */,
+				4B78B17321FCF5127C182412 /* FeedInRange */,
+			);
+			path = Feeds;
+			sourceTree = "<group>";
+		};
+		DB96C53E2152748400543EF1 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				DBD688F52151FB5A00ECB491 /* CommentsViewController.swift */,
+				DB96C54121535AFE00543EF1 /* CommentsCell.swift */,
+				DB96C54321535B1600543EF1 /* CommentsPresenter.swift */,
+				DB96C54521535B2400543EF1 /* CommentsDataSource.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		DB96C5972153C01F00543EF1 /* TOCropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C5982153C01F00543EF1 /* Constants */,
+				DB96C59A2153C01F00543EF1 /* Resources */,
+				DB96C5B22153C01F00543EF1 /* Models */,
+				DB96C5B92153C01F00543EF1 /* TOCropViewController.m */,
+				DB96C5BC2153C01F00543EF1 /* Views */,
+				DB96C5C52153C01F00543EF1 /* Categories */,
+				DB96C5C82153C01F00543EF1 /* TOCropViewController.h */,
+			);
+			path = TOCropViewController;
+			sourceTree = "<group>";
+		};
+		DB96C5982153C01F00543EF1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C5992153C01F00543EF1 /* TOCropViewConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DB96C59A2153C01F00543EF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C59B2153C01F00543EF1 /* TOCropViewControllerLocalizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB96C5B22153C01F00543EF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C5B32153C01F00543EF1 /* TOActivityCroppedImageProvider.m */,
+				DB96C5B42153C01F00543EF1 /* TOCropViewControllerTransitioning.m */,
+				DB96C5B52153C01F00543EF1 /* TOCroppedImageAttributes.m */,
+				DB96C5B62153C01F00543EF1 /* TOActivityCroppedImageProvider.h */,
+				DB96C5B72153C01F00543EF1 /* TOCropViewControllerTransitioning.h */,
+				DB96C5B82153C01F00543EF1 /* TOCroppedImageAttributes.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB96C5BC2153C01F00543EF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C5BD2153C01F00543EF1 /* TOCropView.h */,
+				DB96C5BE2153C01F00543EF1 /* TOCropOverlayView.h */,
+				DB96C5BF2153C01F00543EF1 /* TOCropToolbar.h */,
+				DB96C5C02153C01F00543EF1 /* TOCropScrollView.m */,
+				DB96C5C12153C01F00543EF1 /* TOCropView.m */,
+				DB96C5C22153C01F00543EF1 /* TOCropOverlayView.m */,
+				DB96C5C32153C01F00543EF1 /* TOCropToolbar.m */,
+				DB96C5C42153C01F00543EF1 /* TOCropScrollView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB96C5C52153C01F00543EF1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C5C62153C01F00543EF1 /* UIImage+CropRotate.m */,
+				DB96C5C72153C01F00543EF1 /* UIImage+CropRotate.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DB96C5D42153C0CC00543EF1 /* CropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C5D52153C0CC00543EF1 /* CropViewController.h */,
+				DB96C5D62153C0CC00543EF1 /* CropViewController.swift */,
+			);
+			path = CropViewController;
+			sourceTree = "<group>";
+		};
+		DBBD3B4E21475770006144C9 = {
+			isa = PBXGroup;
+			children = (
+				DB96C5D42153C0CC00543EF1 /* CropViewController */,
+				DB96C5972153C01F00543EF1 /* TOCropViewController */,
+				DBBD3B5921475770006144C9 /* Instagram */,
+				DBBD3B5821475770006144C9 /* Products */,
+				69784394F986C733D777D5FC /* Pods */,
+				34CC29EB96F11C0C7BF56DC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBBD3B5821475770006144C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B5721475770006144C9 /* Instagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBBD3B5921475770006144C9 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9ED172155B74000018BC9 /* Helper */,
+				DBBD3B87214789D0006144C9 /* TabBarView */,
+				DBBD3B732147633A006144C9 /* Login */,
+				DB33E3A82154705600E9DF65 /* Assets.xcassets */,
+				DBBD3B5A21475770006144C9 /* AppDelegate.swift */,
+				DBBD3B6621475773006144C9 /* LaunchScreen.storyboard */,
+				DBBD3B6921475773006144C9 /* Info.plist */,
+				DBBD3B6121475770006144C9 /* Instagram.xcdatamodeld */,
+				DB96C5532153BACB00543EF1 /* Instagram-Bridging-Header.h */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		DBBD3B732147633A006144C9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B77214763F5006144C9 /* Views */,
+				DBBD3B7621476366006144C9 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DBBD3B7621476366006144C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3BB22147ABE0006144C9 /* LoginViewController.swift */,
+				1E63818E215FD9340044ACDB /* SignUpViewController.swift */,
+				1E1BAA0F2168B1BD009B3323 /* RegisterSuccessViewController.swift */,
+				DB41A2F2216997A600F0A7EC /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBBD3B77214763F5006144C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B742147633A006144C9 /* Login.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBBD3B782147884F006144C9 /* UserFeed */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B852147897B006144C9 /* Views */,
+				DBBD3B862147897E006144C9 /* Controllers */,
+			);
+			path = UserFeed;
+			sourceTree = "<group>";
+		};
+		DBBD3B7921478864006144C9 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B8421478975006144C9 /* Views */,
+				DBBD3B8321478971006144C9 /* Controllers */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		DBBD3B7A21478901006144C9 /* UploadPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B822147896B006144C9 /* Views */,
+				DBBD3B8121478967006144C9 /* Controllers */,
+			);
+			path = UploadPhoto;
+			sourceTree = "<group>";
+		};
+		DBBD3B7B21478918006144C9 /* ActivityFeed */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B802147895E006144C9 /* Views */,
+				DBBD3B7F21478958006144C9 /* Controllers */,
+			);
+			path = ActivityFeed;
+			sourceTree = "<group>";
+		};
+		DBBD3B7C21478928006144C9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B7E21478952006144C9 /* Views */,
+				DBBD3B7D21478949006144C9 /* Controllers */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DBBD3B7D21478949006144C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3BA82147AB43006144C9 /* ProfileViewController.swift */,
+				DBD720B32163628900D167B7 /* ProfileDataSource.swift */,
+				DBD720B12163627A00D167B7 /* ProfilePresenter.swift */,
+				DBD720AF2163626900D167B7 /* ProfileCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBBD3B7E21478952006144C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3BA42147A7F8006144C9 /* Profile.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBBD3B7F21478958006144C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB41A2F9216A1AB400F0A7EC /* Following */,
+				DB41A2F8216A1AAB00F0A7EC /* You */,
+				DBBD3BAA2147AB7F006144C9 /* ActivityFeedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBBD3B802147895E006144C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3BA22147A7DD006144C9 /* ActivityFeed.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBBD3B8121478967006144C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB12E5D721550C1E00BB686A /* Process */,
+				DBBD3BAC2147AB96006144C9 /* SelectPhotoViewController.swift */,
+				DBD9ED312156360A00018BC9 /* UploadPhotoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBBD3B822147896B006144C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3BA02147A786006144C9 /* UploadPhoto.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBBD3B8321478971006144C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3BAE2147ABB1006144C9 /* DiscoverViewController.swift */,
+				DB43A135216B204400A29191 /* DiscoverCell.swift */,
+				DB43A137216B205500A29191 /* DiscoverPresenter.swift */,
+				DB43A139216B205F00A29191 /* DiscoverDataSource.swift */,
+				DB43A13B216B244D00A29191 /* DiscoverCollectionReusableView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBBD3B8421478975006144C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B9E2147A766006144C9 /* Discover.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBBD3B852147897B006144C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD3B9C2147A6CB006144C9 /* UserFeed.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBBD3B862147897E006144C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB354D18216C5E0E00A51E45 /* Like */,
+				DB96C53E2152748400543EF1 /* Comments */,
+				DB96C53D2152745A00543EF1 /* Feeds */,
+				DB60CFB421521B7B00A673B3 /* SortPopOverViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBBD3B87214789D0006144C9 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				DB96C54F2153B25100543EF1 /* TabBarViewController.swift */,
+				DBBD3B9221479E93006144C9 /* TabBarView.storyboard */,
+				DBBD3B7C21478928006144C9 /* Profile */,
+				DBBD3B7B21478918006144C9 /* ActivityFeed */,
+				DBBD3B7A21478901006144C9 /* UploadPhoto */,
+				DBBD3B7921478864006144C9 /* Discover */,
+				DBBD3B782147884F006144C9 /* UserFeed */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		DBD9ED172155B74000018BC9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9ED2F2156080600018BC9 /* HazeRemovalFilter.swift */,
+				DBD9ED2D215607E800018BC9 /* ImageHelper.swift */,
+				DBD9ED1A2155B75100018BC9 /* Brightnessable.swift */,
+				DBD9ED1C2155B75200018BC9 /* ColorControlManager.swift */,
+				DBD9ED192155B75100018BC9 /* Contrastable.swift */,
+				DBD9ED1B2155B75100018BC9 /* Processable.swift */,
+				DBD9ED182155B75100018BC9 /* Saturationable.swift */,
+				DBD688F32151D02F00ECB491 /* Extension.swift */,
+				DB96C53B2152678300543EF1 /* Util.swift */,
+				DB33E7292158A11500BAF317 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DBD9ED222155CE0700018BC9 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				DBD9ED252155D16100018BC9 /* FilterCell.swift */,
+				DBD9ED272155D21100018BC9 /* FilterDataSource.swift */,
+				DBD9ED292155D21D00018BC9 /* FilterPresenter.swift */,
+				DB12E5D3215509CF00BB686A /* FilterViewController.swift */,
+				DBD9ED2B2155D23F00018BC9 /* Filter.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		DBD9ED232155CE1900018BC9 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				DB12E5D5215509D700BB686A /* EditViewController.swift */,
+				DB12E5D821550C4D00BB686A /* BrightnessViewController.swift */,
+				DB12E5DA21550C5700BB686A /* ContrastViewController.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBBD3B5621475770006144C9 /* Instagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBD3B6C21475773006144C9 /* Build configuration list for PBXNativeTarget "Instagram" */;
+			buildPhases = (
+				2EA49991FA3B822F5F33C5FB /* [CP] Check Pods Manifest.lock */,
+				DBBD3B5321475770006144C9 /* Sources */,
+				DBBD3B5421475770006144C9 /* Frameworks */,
+				DBBD3B5521475770006144C9 /* Resources */,
+				DB821170214E2C1D00B10CF1 /* Embed Frameworks */,
+				E9FCFA95CF4081CC797C2213 /* [CP] Embed Pods Frameworks */,
+				765A161D8300A91868E75474 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagram;
+			productName = Instagram;
+			productReference = DBBD3B5721475770006144C9 /* Instagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBBD3B4F21475770006144C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.team48;
+				TargetAttributes = {
+					DBBD3B5621475770006144C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBBD3B5221475770006144C9 /* Build configuration list for PBXProject "Instagram" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ar,
+				"zh-Hans",
+				ja,
+				es,
+				it,
+				ms,
+				ko,
+				"zh-Hant",
+				hu,
+				"da-DK",
+				tr,
+				pl,
+				vi,
+				ru,
+				fr,
+				id,
+				nl,
+				pt,
+				ro,
+			);
+			mainGroup = DBBD3B4E21475770006144C9;
+			productRefGroup = DBBD3B5821475770006144C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBBD3B5621475770006144C9 /* Instagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBBD3B5521475770006144C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBD3B6821475773006144C9 /* LaunchScreen.storyboard in Resources */,
+				DBBD3B752147633A006144C9 /* Login.storyboard in Resources */,
+				DBBD3BA52147A7F8006144C9 /* Profile.storyboard in Resources */,
+				DBBD3B9321479E93006144C9 /* TabBarView.storyboard in Resources */,
+				DB96C5C92153C02000543EF1 /* TOCropViewControllerLocalizable.strings in Resources */,
+				DBBD3BA32147A7DD006144C9 /* ActivityFeed.storyboard in Resources */,
+				DBBD3BA12147A786006144C9 /* UploadPhoto.storyboard in Resources */,
+				DBBD3B9F2147A766006144C9 /* Discover.storyboard in Resources */,
+				DB33E3A92154705600E9DF65 /* Assets.xcassets in Resources */,
+				DBBD3B9D2147A6CB006144C9 /* UserFeed.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EA49991FA3B822F5F33C5FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765A161D8300A91868E75474 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FCFA95CF4081CC797C2213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeViewController/SwipeViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBD3B5321475770006144C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD9ED2C2155D23F00018BC9 /* Filter.swift in Sources */,
+				DB41A2FF216A1B0500F0A7EC /* FollwingPresenter.swift in Sources */,
+				DBDED881215F5EFE000A1BD8 /* FeedInRangeCell.swift in Sources */,
+				DB96C5CB2153C02000543EF1 /* TOCropViewControllerTransitioning.m in Sources */,
+				DB12E5DB21550C5700BB686A /* ContrastViewController.swift in Sources */,
+				DBD9ED302156080600018BC9 /* HazeRemovalFilter.swift in Sources */,
+				DBBD3BB32147ABE0006144C9 /* LoginViewController.swift in Sources */,
+				DB41A30B216A244A00F0A7EC /* YouCollectionReusableView.swift in Sources */,
+				DB43A13C216B244D00A29191 /* DiscoverCollectionReusableView.swift in Sources */,
+				DBD9ED212155B75200018BC9 /* ColorControlManager.swift in Sources */,
+				DB96C5CC2153C02000543EF1 /* TOCroppedImageAttributes.m in Sources */,
+				DB7066602163C7D7008817AC /* UserFeedCell.swift in Sources */,
+				DB41A2FB216A1ACC00F0A7EC /* FollowingViewController.swift in Sources */,
+				DB96C5D12153C02000543EF1 /* TOCropOverlayView.m in Sources */,
+				DB41A2F3216997A600F0A7EC /* WelcomeViewController.swift in Sources */,
+				DB354D20216C5E4B00A51E45 /* LikeDataSource.swift in Sources */,
+				DBD720B22163627A00D167B7 /* ProfilePresenter.swift in Sources */,
+				DB41A307216A1B2F00F0A7EC /* YouViewController.swift in Sources */,
+				DB43A136216B204400A29191 /* DiscoverCell.swift in Sources */,
+				DBD9ED1E2155B75200018BC9 /* Contrastable.swift in Sources */,
+				DBBD3BB12147ABCA006144C9 /* UserFeedViewController.swift in Sources */,
+				DB41A2FD216A1AF900F0A7EC /* FollowingCell.swift in Sources */,
+				DBD720B02163626900D167B7 /* ProfileCell.swift in Sources */,
+				DBDED883215F5F4D000A1BD8 /* FeedInRangePresenter.swift in Sources */,
+				DB96C54421535B1600543EF1 /* CommentsPresenter.swift in Sources */,
+				DB41A301216A1B0F00F0A7EC /* FollowingDataSource.swift in Sources */,
+				DB12E5D6215509D700BB686A /* EditViewController.swift in Sources */,
+				DBD688F42151D02F00ECB491 /* Extension.swift in Sources */,
+				DBD9ED262155D16100018BC9 /* FilterCell.swift in Sources */,
+				DB96C53C2152678300543EF1 /* Util.swift in Sources */,
+				DB96C54621535B2400543EF1 /* CommentsDataSource.swift in Sources */,
+				DBBD3B6321475770006144C9 /* Instagram.xcdatamodeld in Sources */,
+				DB12E5D4215509CF00BB686A /* FilterViewController.swift in Sources */,
+				DBD9ED282155D21100018BC9 /* FilterDataSource.swift in Sources */,
+				DB43A138216B205500A29191 /* DiscoverPresenter.swift in Sources */,
+				1E1BAA102168B1BD009B3323 /* RegisterSuccessViewController.swift in Sources */,
+				DB96C5CD2153C02000543EF1 /* TOCropViewController.m in Sources */,
+				DBD9ED1F2155B75200018BC9 /* Brightnessable.swift in Sources */,
+				DBD688F62151FB5A00ECB491 /* CommentsViewController.swift in Sources */,
+				DBD9ED2A2155D21D00018BC9 /* FilterPresenter.swift in Sources */,
+				DB41A305216A1B2200F0A7EC /* YouPresenter.swift in Sources */,
+				DB96C5D22153C02000543EF1 /* TOCropToolbar.m in Sources */,
+				DB96C5D82153C0CD00543EF1 /* CropViewController.swift in Sources */,
+				DBD9ED202155B75200018BC9 /* Processable.swift in Sources */,
+				DB33E3A72153DE5500E9DF65 /* ProcessViewController.swift in Sources */,
+				DB43A13A216B205F00A29191 /* DiscoverDataSource.swift in Sources */,
+				DB96C5D32153C02000543EF1 /* UIImage+CropRotate.m in Sources */,
+				DBD720B42163628900D167B7 /* ProfileDataSource.swift in Sources */,
+				DB354D1A216C5E2000A51E45 /* LikeViewController.swift in Sources */,
+				DBD9ED322156360A00018BC9 /* UploadPhotoViewController.swift in Sources */,
+				DB33E72A2158A11500BAF317 /* Constants.swift in Sources */,
+				DB96C5502153B25200543EF1 /* TabBarViewController.swift in Sources */,
+				DB70666721642C1F008817AC /* UserFeedDataSource.swift in Sources */,
+				DB354D1C216C5E3400A51E45 /* LikeCell.swift in Sources */,
+				DBBD3BAF2147ABB1006144C9 /* DiscoverViewController.swift in Sources */,
+				DBD9ED1D2155B75200018BC9 /* Saturationable.swift in Sources */,
+				DB12E5D921550C4D00BB686A /* BrightnessViewController.swift in Sources */,
+				DB96C5D02153C02000543EF1 /* TOCropView.m in Sources */,
+				DBBD3BA92147AB43006144C9 /* ProfileViewController.swift in Sources */,
+				DB96C5CA2153C02000543EF1 /* TOActivityCroppedImageProvider.m in Sources */,
+				DB60CFB521521B7B00A673B3 /* SortPopOverViewController.swift in Sources */,
+				DBDED87F215F5E83000A1BD8 /* FeedInRangeDataSource.swift in Sources */,
+				DBBD3B5B21475770006144C9 /* AppDelegate.swift in Sources */,
+				DBBD3BAD2147AB96006144C9 /* SelectPhotoViewController.swift in Sources */,
+				DB12E5D22155021F00BB686A /* EmbeddedTabBarViewController.swift in Sources */,
+				1E63818F215FD9340044ACDB /* SignUpViewController.swift in Sources */,
+				DB96C5CF2153C02000543EF1 /* TOCropScrollView.m in Sources */,
+				DBBD3BAB2147AB7F006144C9 /* ActivityFeedViewController.swift in Sources */,
+				DB96C54221535AFE00543EF1 /* CommentsCell.swift in Sources */,
+				DB41A303216A1B1A00F0A7EC /* YouDataSource.swift in Sources */,
+				DB70666821642C1F008817AC /* UserFeedPresenter.swift in Sources */,
+				DB41A309216A1B4000F0A7EC /* YouCell.swift in Sources */,
+				DBD9ED2E215607E800018BC9 /* ImageHelper.swift in Sources */,
+				4B78B018876D8628C659DA86 /* FeedInRangeViewController.swift in Sources */,
+				DB354D1E216C5E3F00A51E45 /* LikePresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB96C59B2153C01F00543EF1 /* TOCropViewControllerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB96C59C2153C01F00543EF1 /* de */,
+				DB96C59D2153C01F00543EF1 /* ar */,
+				DB96C59E2153C01F00543EF1 /* zh-Hans */,
+				DB96C59F2153C01F00543EF1 /* ja */,
+				DB96C5A02153C01F00543EF1 /* en */,
+				DB96C5A12153C01F00543EF1 /* es */,
+				DB96C5A22153C01F00543EF1 /* it */,
+				DB96C5A32153C01F00543EF1 /* ms */,
+				DB96C5A42153C01F00543EF1 /* ko */,
+				DB96C5A52153C01F00543EF1 /* Base */,
+				DB96C5A62153C01F00543EF1 /* zh-Hant */,
+				DB96C5A72153C01F00543EF1 /* hu */,
+				DB96C5A82153C01F00543EF1 /* da-DK */,
+				DB96C5A92153C01F00543EF1 /* tr */,
+				DB96C5AA2153C01F00543EF1 /* pl */,
+				DB96C5AB2153C01F00543EF1 /* vi */,
+				DB96C5AC2153C01F00543EF1 /* ru */,
+				DB96C5AD2153C01F00543EF1 /* fr */,
+				DB96C5AE2153C01F00543EF1 /* id */,
+				DB96C5AF2153C01F00543EF1 /* nl */,
+				DB96C5B02153C01F00543EF1 /* pt */,
+				DB96C5B12153C01F00543EF1 /* ro */,
+			);
+			name = TOCropViewControllerLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		DBBD3B6621475773006144C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBD3B6721475773006144C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBBD3B6A21475773006144C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBBD3B6B21475773006144C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBBD3B6D21475773006144C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2764BEFF537C823ECEA16E /* Pods-Instagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YG4BMK6L49;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Instagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team48.Instagr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instagram/Instagram-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBBD3B6E21475773006144C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64329E9D2B78D7CEE27382F /* Pods-Instagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YG4BMK6L49;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Instagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team48.Instagr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instagram/Instagram-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBBD3B5221475770006144C9 /* Build configuration list for PBXProject "Instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBD3B6A21475773006144C9 /* Debug */,
+				DBBD3B6B21475773006144C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBD3B6C21475773006144C9 /* Build configuration list for PBXNativeTarget "Instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBD3B6D21475773006144C9 /* Debug */,
+				DBBD3B6E21475773006144C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBBD3B6121475770006144C9 /* Instagram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBBD3B6221475770006144C9 /* Instagram.xcdatamodel */,
+			);
+			currentVersion = DBBD3B6221475770006144C9 /* Instagram.xcdatamodel */;
+			path = Instagram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBBD3B4F21475770006144C9 /* Project object */;
+}
